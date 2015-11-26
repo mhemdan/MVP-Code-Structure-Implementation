@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/oldest" android:title="@string/sort_by_oldest" />
+    <item android:id="@+id/newest" android:title="@string/sort_by_newest" />
+    <item android:id="@+id/low_price" android:title="@string/sort_by_low_price"/>
+    <item android:id="@+id/high_price" android:title="@string/sort_by_high_price" />
+    <item android:id="@+id/low_mileage" android:title="@string/sort_by_mileague_low" />
+    <item android:id="@+id/high_mileage" android:title="@string/sort_by_mileague_high"/>
+</menu>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/app_yellow_color"
+        android:gravity="center"
+        android:title="@string/product_list"
+        android:visibility="visible" />
+    <com.malinskiy.superrecyclerview.SuperRecyclerView
+        android:id="@+id/product_list"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_gravity="center"
+        android:clickable="true"
+        app:layout_empty="@layout/progress_dialog"
+        app:layout_moreProgress="@layout/progress_dialog"
+        app:mainLayoutId="@layout/layout_recyclerview_verticalscroll"
+        app:recyclerClipToPadding="false"
+        app:recyclerPadding="0dp"
+        />
+</RelativeLayout>

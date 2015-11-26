@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">carmudi_task</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="product_list">Product List</string>
+    <string name="sort">Sort</string>
+    <string name="sort_by_oldest">Sort by Oldest</string>
+    <string name="sort_by_newest">Sort by Newest</string>
+    <string name="sort_by_low_price">Sort by lowest price</string>
+    <string name="sort_by_high_price">Sort by highest price</string>
+    <string name="sort_by_mileague_low">Sort by lowest mileage</string>
+    <string name="sort_by_mileague_high">Sort by highest mileage</string>
+</resources>
